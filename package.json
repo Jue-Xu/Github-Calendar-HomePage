@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "github-calendar": "^2.2.2",
+    "yarn": "^1.22.4"
+  }
+}
