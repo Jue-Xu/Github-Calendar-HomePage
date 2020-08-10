@@ -5,25 +5,24 @@
   <title>JS Bin</title>
 </head>
 <body>
-<!-- Prepare a container for your calendar. -->
-<script
-  src="https://cdn.rawgit.com/IonicaBizau/github-calendar/master/dist/github-calendar.min.js"
-></script>
 
-<!-- Optionally, include the theme (if you don't want to struggleto write the CSS) -->
-<link
-  rel="stylesheet"
-  href="https://cdn.rawgit.com/IonicaBizau/github-calendar/master/dist/github-calendar.css"
-/>
+<!-- Include the library. -->
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 
 <!-- Prepare a container for your calendar. -->
 <div class="calendar">
-    <!-- Loading stuff -->
-    Loading the data just for you.
+  <!-- Loading stuff -->
+  Loading the data just for you.
 </div>
 
 <script>
-    new GitHubCalendar(".calendar", "IonicaBizau");
+  GitHubCalendar(".calendar", "Jue-Xu");
+  // or enable responsive functionality
+  GitHubCalendar(".calendar", "Jue-Xu", { responsive: true });
 </script>
+
 </body>
 </html>
