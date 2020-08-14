@@ -1,5 +1,7 @@
 # Jue-Xu.github.io
 Homepage
 
-## Example
+## Bio
+
+## Projects
 
