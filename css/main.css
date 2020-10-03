@@ -1,0 +1,42 @@
+div.calendar{
+  width: 600px;
+  margin: auto;
+  /* border: 3px solid #73AD21; */
+}
+
+body{
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Courier New', Courier, monospace;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 200px;
+  color: #73AD21;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .sidebar {
+  position: fixed; 
+  width: 50px;
+  height: 100%;
+  background: #dddddd;
+}
+
+.sidebar header{
+  font-size: 22px;
+  color: blueviolet;
+  text-align: center;
+}
+
+.sidebar ul a{
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  padding-left: 10%;
+} */

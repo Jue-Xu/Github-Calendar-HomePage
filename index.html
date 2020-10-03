@@ -3,22 +3,52 @@
 <head>
   <meta charset="utf-8">
   <title>JS Bin</title>
+  <link rel="stylesheet" href="css/main.css">
+  <!-- <script src="css/main.css"></script> -->
 </head>
 
 <body>
   <h1>Hello World!</h1>
 
-  <!-- Include the library. -->
-  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+  <br>
 
-  <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+  <!-- <button>Click me</button>
 
-  <!-- Prepare a container for your calendar. -->
-  <div class="calendar">
+  <ul>
+  </ul>
+
+  <nav>
+    History
+  </nav>
+
+  <div class="sidebar">
+    <header>Header</header>
+    <ul>
+      <li><a href="#1">1</a></li>
+      <li>2</li>
+    </ul>
+  </div> -->
+
+
+  <div style="width:600px;">
+    <!-- Include the library. -->
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
+    <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+    <!-- Prepare a container for your calendar. -->
+    <div class="calendar">
     <!-- Loading stuff -->
     Loading the data just for you.
+    </div>
   </div>
+
+  <br>
+
+  <a href="https://twitter.com/fermion4love?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+    data-show-count="false">Follow @fermion4love</a>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
   <script>
     GitHubCalendar(".calendar", "Jue-Xu");
